@@ -1,0 +1,86 @@
+//////////////////////////////////////////////////////////////////////////
+//								GLOBALS									//
+//																		//
+//	Esse arquivo contém todas a definições globais e geram CSS na		//
+//	compilação. Depende diretamente do arquivo Utils.					//
+//																		//
+//////////////////////////////////////////////////////////////////////////
+
+//UTILS
+@import (reference) "utils";
+
+//////////////////////////////////////
+//			ESTRUTURA
+//////////////////////////////////////
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body{
+	.fonte; //padrao
+  	font-size: 16px;
+	color:@default;
+	line-height:1.5;
+	font-smoothing: antialiased; //no effect
+	-moz-osx-font-smoothing: grayscale; //no effect
+  	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-style: normal;
+	position: relative;
+	cursor: default;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+	max-width: none !important;
+}
+
+.left {
+	float: left !important;
+}
+
+.right {
+	float: right !important;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+textarea {
+	height: auto;
+	min-height: 50px;
+}
+
+select {
+	width: 100%;
+}

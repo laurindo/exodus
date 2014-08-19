@@ -1,0 +1,9 @@
+node_modules
+dist
+app/bower_components
+app/*.html
+*.css
+!foundation.css
+*.map
+test/bower_components
+.idea
