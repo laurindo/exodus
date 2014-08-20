@@ -1,1 +1,1 @@
-console.log("Dummy Plugin");
+console.log('Dummy Plugin');
