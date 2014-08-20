@@ -1,5 +1,4 @@
 'use strict';
-// generated on 2014-07-28 using generator-gulp-webapp 0.1.0
 
 var gulp = require('gulp');
 var Combine = require('stream-combiner');
@@ -313,7 +312,7 @@ gulp.task('watch', ['connect', 'serve'], function () {
     });
 
     gulp.watch('app/templates/*.html', ['kickoff']);
-    gulp.watch('app/componentes/*.html', ['kickoff']);
+    gulp.watch('app/components/*.html', ['kickoff']);
     gulp.watch('app/styles/less/**/*.less', ['inject-css']);
     gulp.watch('app/scripts/**/*.js', ['inject-js']);
     gulp.watch('bower.json', ['wiredep']);
