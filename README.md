@@ -7,7 +7,7 @@ _Web App Scaffolding using Gulp, Less and other little tricks._
 * [@laurindo](http://github.com/laurindo)
 * [@itumoraes](http://github.com/itumoraes)
 * [@pisandelli](http://github.com/pisandelli)
-* [@virginiarcruz](http://github.com/@virginiarcruz)
+* [@virginiarcruz](http://github.com/virginiarcruz)
 
 **Please** fork it if you want to use! :)  
 **Issues:** [github.com/pisandelli/exodus/issues](https://github.com/pisandelli/exodus/issues)
