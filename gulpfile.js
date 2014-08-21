@@ -100,7 +100,7 @@ gulp.task('initdep', ['kickoff'], function () {
     var combined = Combine(
         gulp.src(['app/*.html','!app/templates/*.html']),
         wiredep({
-            directory: 'app/bower_components',
+            directory: 'app/bower_components'
             //exclude: [ /bootstrap/ ]
         }),
         gulp.dest('app')
@@ -263,7 +263,7 @@ gulp.task('wiredep', function () {
     var combined = Combine(
         gulp.src(['app/*.html','!app/templates/*.html']),
         wiredep({
-            directory: 'app/bower_components',
+            directory: 'app/bower_components'
             //exclude: [ /bootstrap/ ]
         }),
         gulp.dest('app')
