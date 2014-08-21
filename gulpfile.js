@@ -311,8 +311,8 @@ gulp.task('watch', ['connect', 'serve'], function () {
         server.changed(file.path);
     });
 
-    gulp.watch('app/templates/*.html', ['kickoff']);
-    gulp.watch('app/components/*.html', ['kickoff']);
+    gulp.watch('app/templates/*.html', ['initdep']);
+    gulp.watch('app/components/*.html', ['initdep']);
     gulp.watch('app/styles/less/**/*.less', ['inject-css']);
     gulp.watch('app/scripts/**/*.js', ['inject-js']);
     gulp.watch('bower.json', ['wiredep']);
